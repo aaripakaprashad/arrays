@@ -9,10 +9,14 @@
 int main()
 {
     printf("Hello World\n");
+    
+    //i/p - unsorted array
     int arr[10] = {9,0,8,7,6,-5,-4,-3,-2,-1};
+    
     //sort array 
     int n = sizeof(arr)/sizeof(arr[0]);
     int min = 0;
+    //selection sort
     for(int i=0; i<n; i++){
         int index = i;
         for(int j=i; j<n; j++){
@@ -24,6 +28,7 @@ int main()
         arr[index] = t;
         
     }
+    
     //sorted array -5 -4 -3 -2 -1 0 6 7 8 9
     for(int i=0; i<n; i++)
        printf("%d ",arr[i]);
