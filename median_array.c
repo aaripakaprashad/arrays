@@ -24,7 +24,7 @@ int main()
         arr[index] = t;
         
     }
-    //sorted array
+    //sorted array -5 -4 -3 -2 -1 0 6 7 8 9
     for(int i=0; i<n; i++)
        printf("%d ",arr[i]);
        
@@ -34,7 +34,8 @@ int main()
         a[i+1] = arr[j];        
     }
     printf("\n"); 
-    //merdian array
+    
+    //merdian array 9 -5 8 -4 7 -3 6 -2 0 -1
     for(int i=0; i<n; i++)
        printf("%d ",a[i]);
     
