@@ -23,7 +23,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 int is_prime(int n)
 {
     if(n==1)
-       return 
+       return 0; 
     if(n==2)
        return 1;
     for(int i=2; i<n; i++) {
