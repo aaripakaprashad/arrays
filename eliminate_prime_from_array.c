@@ -4,6 +4,11 @@
                 Code, Compile, Run and Debug C program online.
 Write your code in this editor and press "Run" button to compile and execute it.
 
+Input: arr[] = {4, 6, 5, 3, 8, 7, 10, 11, 14, 15} 
+Output: 4 6 8 10 14 15
+
+Input: arr[] = {2, 4, 7, 8, 9, 11} 
+Output: 4 8 9 
 *******************************************************************************/
 
 #include <stdio.h>
