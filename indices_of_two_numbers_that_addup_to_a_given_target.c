@@ -16,7 +16,7 @@ int main()
         
         for(int p2 = p1+1; p2 <=n-1 ; p2++) {
             
-            if(target-a[p1] == a[p2]) {
+            if(target-a[p1] == a[p2]) {  // a[p1] + a[p2] == target
                 printf("index postions p1:%d, p2: %d\n",p1,p2);
                 return 0;
             }
